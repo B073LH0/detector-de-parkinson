@@ -4,6 +4,11 @@ Projeto acadêmico da disciplina **Engenharia de Dados e Inteligência Artificia
 
 O projeto não propõe diagnosticar a doença de Parkinson nem substituir avaliação médica. Seu foco é investigar, de forma exploratória, características acústicas já extraídas de gravações de voz.
 
+## Documento para entrega
+
+- [Entrega Aula 01 em PDF](output/pdf/Entrega_Aula_01_Detector_de_Parkinson.pdf) - resumo autônomo com link clicável para este repositório.
+- [Fonte em Markdown do documento](docs/entrega_aula01.md).
+
 ## Objetivo e pergunta de pesquisa
 
 **Objetivo:** descrever a organização, a cobertura e a qualidade do dataset e explorar diferenças e associações entre características acústicas da voz e o grupo clínico, respeitando a dependência entre gravações do mesmo participante.
@@ -53,9 +58,13 @@ Não há treinamento de classificador nesta entrega. Resultados numéricos, grá
 │   └── dataset_url.txt
 ├── docs/
 │   ├── ficha_tecnica.md
-│   └── checklist_entrega.md
+│   ├── checklist_entrega.md
+│   └── entrega_aula01.md
 ├── notebooks/
 │   └── 01_eda.ipynb
+├── output/
+│   └── pdf/
+│       └── Entrega_Aula_01_Detector_de_Parkinson.pdf
 └── src/
     └── data_loader.py
 ```
